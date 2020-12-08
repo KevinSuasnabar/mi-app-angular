@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-firebase",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-firebase"
+    }
+  },
+  "defaultProject": "app-firebase",
+  "cli": {
+    "analytics": "73b0c7b9-4d53-458b-8986-26661e6e99e1"
+  }
 }
